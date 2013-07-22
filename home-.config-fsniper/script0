@@ -17,7 +17,7 @@ then
     sleep 1s
     cp /media/1ntfs/rmaidan/gallery/.index /media/1ntfs/rmaidan/gallery/index.html
     sleep 1s
-    echo \<a href=$TODAY/index.html\>$TODAY\</a\>\| >> /media/1ntfs/rmaidan/index1.html
+    echo \<a href=$TODAY.html\>$TODAY\</a\>\| >> /media/1ntfs/rmaidan/index1.html
 fi
 
 NEWLINE="<img src="grey.gif" data-original="$TODAY/$FILENAME"><br/>"
