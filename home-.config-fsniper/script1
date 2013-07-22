@@ -1,0 +1,18 @@
+#!/bin/bash
+
+TODAY=$(date +%F)
+NEWDIR=/media/1ntfs/motion/$TODAY
+FILENAME=${1##*/}
+echo $NEWDIR $FILENAME
+#mkdir -p $NEWDIR
+#mv $1 $NEWDIR/
+#ln -s -f $NEWDIR/$FILENAME /media/1ntfs/motion/lastimg.jpg
+#ln -s -f $NEWDIR/rmaidan_temp.png /media/1ntfs/motion/temper.png
+#igal2 -d $NEWDIR --dest igal2 --pagination 50
+
+sed 's/.*<!-- insert new images after -->.*/&\n"$TODAY"/' /media/1ntfs/rmaidan/gallery/index.html > test
+
+#if ! grep $TODAY /media/1ntfs/motion/index.html
+#then
+#    echo \<a href=$TODAY/index.html\>$TODAY\</a\>\| >> /media/1ntfs/motion/index.html
+#fi

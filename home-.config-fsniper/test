@@ -1,0 +1,79 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Lazy Load Enabled</title>
+  <meta name="generator" content="Mephisto" />
+  <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/tuupola" title="Atom feed" />
+  <link href="http://www.appelsiini.net/stylesheets/main2.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+  #sidebar {
+    width: 0px;
+  }
+
+  #content {
+    width: 1280px;
+  }
+  
+  </style>
+
+  <script>
+  var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-190966-1']);
+      _gaq.push(['_trackPageview']);
+      _gaq.push(['_trackPageLoadTime']);
+    
+  (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+</head>
+
+<body>    
+  <div id="wrap"> 
+    <div id="header">
+      <p>
+        <h1>r Maidan</h1><br />
+        <small>Horses horses horses horses.</small>
+        <ul id="nav">
+          <li id="first"><a href="/" class="active">main</a></li>
+          <!--
+          <li><a href="/projects" class="last">projects</a></li>
+          <li><a href="/cv" class="last">cv</a></li>
+        -->
+        </ul>
+      </p>
+    </div>
+    <div id="content">
+      
+  <div class="entry">
+<!-- insert new images after -->    
+"$TODAY"
+    <img src="grey.gif" data-original="/motion/2013-05-30/20130529235954-73-06.jpg"><br/>
+    <img src="grey.gif" data-original="/motion/2013-05-30/20130530000000-73-snapshot.jpg"><br/>
+    <img src="grey.gif" data-original="/motion/2013-05-30/20130530001447-74-07.jpg"><br/>
+    <img src="grey.gif" data-original="/motion/2013-05-30/20130530003000-75-snapshot.jpg"><br/>
+    <img src="grey.gif" data-original="/motion/2013-05-30/20130530005708-75-08.jpg"><br/>
+    <img src="grey.gif" data-original="/motion/2013-05-30/20130530010000-76-snapshot.jpg"><br/>
+
+    </div>
+    <div id="sidebar">
+
+  </div>
+  
+  <div id="footer">
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" charset="utf-8"></script>
+  <script src="jquery.lazyload.js?v=1.8.3" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+      $(function() {
+          $("img").lazyload();
+      });
+  </script>
+</body>
+</html>
+
