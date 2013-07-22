@@ -1,0 +1,7 @@
+#!/bin/sh
+
+TODAY=$(date +%F)
+
+cp /media/1ntfs/motion/temp_info_$TODAY /media/1ntfs/rmaidan/.temp_info
+/root/graphscript
+cp /media/1ntfs/rmaidan/rmaidan_temp.png /media/1ntfs/rmaidan/rmaidan_temp_$TODAY.png
