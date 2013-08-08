@@ -1,0 +1,12 @@
+for old/not-supported cameras:
+
+ruinrobo@runnlw1019:~$ sudo v4l2-ctl --list-formats
+ioctl: VIDIOC_ENUM_FMT
+        Index       : 0
+        Type        : Video Capture
+        Pixel Format: 'PJPG' (compressed)
+        Name        : PJPG
+
+add:
+LD_PRELOAD=/usr/lib/i386-linux-gnu/libv4l/v4l1compat.so
+export LD_PRELOAD
