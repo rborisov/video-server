@@ -1,0 +1,3 @@
+#!/bin/sh
+TODAY=$(date +%F)
+/usr/local/sbin/pcsensor >> /media/rmaidan/temp_info_$TODAY

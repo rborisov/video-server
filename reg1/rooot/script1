@@ -1,0 +1,5 @@
+#!/bin/sh
+
+TODAY=$(date +%F)
+	    
+scp  -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no /media/rmaidan/temp_info_$TODAY rborisov@rborisov.no-ip.org:/media/1ntfs/motion

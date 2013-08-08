@@ -1,0 +1,6 @@
+#!/bin/sh
+
+TODAY=$(date +%F)
+	    
+scp  -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %1 rborisov@rborisov.no-ip.org:/media/1ntfs/motion
+rm %1
