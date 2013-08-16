@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,10 +40,8 @@
         <small>Horses horses horses horses.</small>
         <ul id="nav">
           <li id="first"><a href="/rmaidan/" class="active">main</a></li>
-          <!--
-          <li><a href="/projects" class="last">projects</a></li>
-          <li><a href="/cv" class="last">cv</a></li>
-        -->
+          <li><a href="/rmaidan/gallery/" class="last">camera_1</a></li>
+          <li><a href="/rmaidan/gallery1/" class="last">camera_2</a></li>
         </ul>
       </p>
     </div>
